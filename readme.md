@@ -31,24 +31,23 @@ run `build_tree.sh [optional filepath]`
 ##### Grammar
 - [x] Ternary operator
 - [x] Constants
-- [ ] Custom Type definitions
+- [x] Custom Type definitions
 - [x] Functions
     - [x] Function Calls
     - [x] Function Declaration
 ##### Intermediate Code
-- [ ] Predefined char
-- [ ] Predefined long
-- [ ] Predefined double
+- [x] Predefined char
+- [x] Predefined long
+- [x] Predefined double
 ##### Backend
-- [ ] Import files
+- [x] Import files
 - [x] Function declaration
 - [x] If statements
 - [x] Loop statement
     - [x] loop while() {}
-    - [ ] loop {} while()
 - [x] Predefined function calls
     - [x] write/writeln
-    - [ ] read
+    - [x] read
 - [x] Function calls
     - [x] Pass1
     - [x] Pass2
