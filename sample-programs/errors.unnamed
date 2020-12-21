@@ -1,0 +1,21 @@
+final i: int = 10;
+
+fee: string()
+    j: int;
+{
+    j = 5;
+    return ("fee: " + j);
+}
+
+k: integer; //Undefined Type
+
+{
+    j = 0; // Undefined Variable
+    foo(); // Undefined Function
+    if (0 == "test") // Incomparable types
+    {
+        i = 5; // Final type set
+        k = "test" * "test"; //Unmatching types for operation
+    }
+    fee = (true)?0.0:"String"; // Assign value to function AND ternary operator with mismatching types
+}

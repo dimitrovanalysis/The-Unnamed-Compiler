@@ -1,0 +1,28 @@
+i: int;
+output: string;
+
+{
+    // FizzBuzz
+    i = 0;
+    loop while (i <= 100) {
+        if (i % 15 == 0) {
+            output = output + "FizzBuzz";
+            writeln("FizzBuzz");
+        }
+        else if (i % 5 == 0) {
+            output = output + "Buzz";
+            writeln("Buzz");
+        }
+        else if (i % 3 == 0) {
+            output = output + "Fizz";
+            writeln("Fizz");
+        }
+        else {
+            writeln("%d", i);
+            output = output + i;
+        }
+        i = i + 1;
+    }
+    writeln("\nShow string concatenation:");
+    writeln(output);
+}

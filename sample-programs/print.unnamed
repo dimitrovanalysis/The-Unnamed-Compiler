@@ -1,0 +1,8 @@
+i: int;
+{
+    i = 0;
+    loop while (i<5){
+        writeln("loop");
+        i = i + 1;
+    }
+}
